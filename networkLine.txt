@@ -1,0 +1,12 @@
+Mode Identical
+GUILayout line
+
+AddNode 13: 0 6
+AddNode 6: 13 27
+AddNode 27: 6 85
+AddNode 85: 27 53
+AddNode 53: 85 0
+
+LoadAlgorithm CountProcessorsLine
+
+RoundTime 500
